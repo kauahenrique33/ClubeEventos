@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Clube Conexão Ativa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    header, footer {
+      background-color: #004080;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      margin: 20px;
+    }
+    main {
+      flex: 3;
+      margin-right: 20px;
+    }
+    aside {
+      flex: 1;
+      background-color: #f2f2f2;
+      padding: 15px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 8px;
+    }
+    .evento {
+      background-color: #ffe699;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clube Conexão Ativa</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#calendario">Calendário</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#contatos">Contatos</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <main>
+      <!-- Seção de Eventos -->
+      <section id="eventos">
+        <h2>Próximos Eventos</h2>
+        <ul>
+          <li><strong>Encontro de Verão</strong> – 12/06/2025 – Praia Central – Um dia inteiro de diversão com jogos e atividades aquáticas.</li>
+          <li><strong>Feira de Inovação</strong> – 25/06/2025 – Centro de Convenções – Palestras e estandes sobre tecnologia e criatividade.</li>
+        </ul>
+      </section>
+
+      <!-- Seção de Calendário -->
+      <section id="calendario">
+        <h2>Calendário – Junho 2025</h2>
+        <table>
+          <tr>
+            <th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th>
+          </tr>
+          <tr>
+            <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td class="evento">6</td><td>7</td>
+          </tr>
+          <tr>
+            <td>8</td><td>9</td><td>10</td><td>11</td><td class="evento">12</td><td>13</td><td>14</td>
+          </tr>
+          <tr>
+            <td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+          </tr>
+          <tr>
+            <td>22</td><td>23</td><td>24</td><td class="evento">25</td><td>26</td><td>27</td><td>28</td>
+          </tr>
+          <tr>
+            <td>29</td><td>30</td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Seção de Notícias -->
+      <section id="noticias">
+        <h2>Notícias</h2>
+        <article>
+          <h3>Clube recebe prêmio de inovação comunitária</h3>
+          <p><em>01/06/2025</em> – O Clube Conexão Ativa foi premiado por seu projeto de inclusão digital para idosos.</p>
+        </article>
+        <article>
+          <h3>Nova parceria com universidades locais</h3>
+          <p><em>28/05/2025</em> – Anunciamos parceria com três universidades para promoção de eventos educacionais.</p>
+        </article>
+      </section>
+    </main>
+
+    <!-- Barra Lateral -->
+    <aside>
+      <h3>Links Úteis</h3>
+      <ul>
+        <li><a href="https://www.gov.br/" target="_blank">Site da Prefeitura</a></li>
+        <li><a href="https://facebook.com" target="_blank">Facebook do Clube</a></li>
+        <li><a href="https://instagram.com" target="_blank">Instagram Oficial</a></li>
+        <li><a href="https://www.voluntariosonline.org.br/" target="_blank">Central de Voluntários</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Rodapé -->
+  <footer id="contatos">
+    <p>&copy; 2025 Clube Conexão Ativa | Todos os direitos reservados.</p>
+    <p>
+      <a href="https://facebook.com" target="_blank">Facebook</a> |
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="mailto:contato@conexaoativa.com">contato@conexaoativa.com</a>
+    </p>
+  </footer>
+</body>
+</html>
